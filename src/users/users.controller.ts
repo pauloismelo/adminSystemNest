@@ -8,27 +8,27 @@ export class UsersController {
 
     @Get()
     getAll(){
-        return '';
+        this.userService.getAll();
     }
 
     @Get(':id')
     getOne(@Param('id') id: number){
-        return '';
+        return this.userService.getOne(id);
     }
 
     @Post()
     create(@Body() userData: {}){
-        return '';
+        return this.userService.create(userData);
     }
 
     @Patch(':id')
     update(@Param('id') id: number, @Body() userData: {}){
-        return '';
+        return this.userService.update(id, userData);
     }
 
     @Delete(':id')
     delete(@Param('id') id: number){
-        return '';
+        return this.userService.delete(id);
     }
 
 }
