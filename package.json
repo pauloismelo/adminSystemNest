@@ -1,8 +1,8 @@
 {
   "name": "admin-system-nest",
   "version": "0.0.1",
-  "description": "",
-  "author": "",
+  "description": "backend for basic CMS System. This project will be use for my own small clients",
+  "author": "Paulo Melo",
   "private": true,
   "license": "UNLICENSED",
   "scripts": {
